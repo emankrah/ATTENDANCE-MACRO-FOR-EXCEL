@@ -62,10 +62,3 @@ Accepted formats: `7:30`, `7:30 AM`, `07:30`, `18:30`, `6:00 PM`, etc.
  
 Invalid entries (`banana`, `99:99`, `25:80`, etc.) are rejected with an error message, and the prompt repeats until a valid value is entered or the field is left blank.
  
-## A note on macros and security
- 
-Macro-enabled files (`.xlsm`) are often flagged or blocked by company IT policies, especially if downloaded from the internet or emailed as attachments. If you're deploying this at work:
-- Check with your IT team about macro policy before rolling it out
-- Files may need to be unblocked (right-click → Properties → *Unblock*) or placed in an IT-approved Trusted Location
-- Some organizations require macros to be digitally signed before they'll run
-## Repo structure
