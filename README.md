@@ -20,8 +20,8 @@ A single VBA macro that automates weekly attendance entry in Excel — no manual
  
 | NAME | STAFF ID |
 |---|---|
-| JEMIMA GLORIA ADU | S.351 |
-| GIFTY OTENG | J.445 |
+| JOHN DOE| 1234|
+| JOHNDOE 2 | 12345|
 | ... | ... |
  
 Add a row for a new hire, delete a row when someone leaves. That's it — the macro always reads this sheet fresh.
